@@ -1,0 +1,19 @@
+.right1-left{
+	/*border: 1px solid red;*/
+	padding: 0 3%;
+	/*font-size: 20px;*/
+}
+.right1-left span{
+	font-size: 22px;
+	/*padding: 15px;*/
+}
+.right1-right{
+	/*border: 1px solid red;*/
+}
+.right1-right h5{
+	font-size: 18px;
+}
+.myperson{
+	/*border: 1px solid red;*/
+	margin: 0;
+}

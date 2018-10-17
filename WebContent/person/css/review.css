@@ -1,0 +1,26 @@
+.right1 h4{
+	padding: 15px 20px;
+	/*padding: 0;*/
+	/*text-align: left;*/
+	border-bottom:1px solid gainsboro ;
+}
+.reviewpro li{
+	width:130px;
+	/*float: left;*/
+	/*padding: 0;*/
+}
+.reviewpro{
+	padding: 10px;
+	width: 98%;
+	background: #F7F7F7;
+	margin-top: 20px;
+}
+.reviewpro li a{
+	padding: 0px;
+}
+.right1 p{
+	font-size: 18px;
+	color: gainsboro;
+	margin-left: 35%;
+	margin-top: 25px;
+}

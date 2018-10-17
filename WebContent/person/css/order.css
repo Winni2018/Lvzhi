@@ -1,0 +1,29 @@
+table{
+	width:80%;
+}
+.right1 h4{
+	padding: 15px 20px;
+	/*padding: 0;*/
+	/*text-align: left;*/
+	border-bottom:1px solid gainsboro ;
+}
+.right1 ul li{
+	width:100px;
+	/*float: left;*/
+	/*padding: 0;*/
+}
+.pro{
+	padding: 10px;
+	width: 98%;
+	background: #F7F7F7;
+	margin-top: 20px;
+}
+.pro li{
+	padding: 5px;
+}
+.right1 p{
+	font-size: 18px;
+	color: gainsboro;
+	margin-left: 35%;
+	margin-top: 25px;
+}

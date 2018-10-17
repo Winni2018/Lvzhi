@@ -1,0 +1,24 @@
+.save{
+
+	margin: 0;
+}
+.save-left{
+	/*border: 1px solid red;*/
+	padding: 0 4%;
+}
+.save-left span{
+	color: gray;
+}
+.save-right{
+	/*border: 1px solid black;*/
+	padding: 3.5% 3%;
+	margin-left: 4%;
+}
+.save-right button{
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+}
+.save-left h3{
+	font-size: 18px;
+}

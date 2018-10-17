@@ -1,0 +1,36 @@
+$(function(){
+			$(".industry").click(function(){
+				
+				$(".leftnews1").show();
+				$(".leftnews2").hide();
+				$(".leftnews3").hide();
+				$(".rightnews1").show();
+				$(".rightnews2").hide();
+				$(".rightnews3").hide();
+			});
+			$(".maintain").click(function(){
+				$(".leftnews1").hide();
+				$(".leftnews2").show();
+				$(".leftnews3").hide();
+				$(".rightnews1").hide();
+				$(".rightnews2").show();
+				$(".rightnews3").hide();
+			});
+			$(".house").click(function(){
+				$(".leftnews1").hide();
+				$(".leftnews2").hide();
+				$(".leftnews3").show();
+				$(".rightnews1").hide();
+				$(".rightnews2").hide();
+				$(".rightnews3").show();
+			});
+$(window).scroll(function(){
+		if($(window).scrollTop()>700){
+			$(".topreturn").fadeIn();
+		}
+		else{
+			$(".topreturn").fadeOut();
+		}
+	});
+			
+})

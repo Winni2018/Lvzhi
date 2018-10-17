@@ -1,0 +1,27 @@
+.right1 h4{
+	padding: 15px 20px;
+	/*padding: 0;*/
+	/*text-align: left;*/
+	border-bottom:1px solid gainsboro ;
+}
+.change-money li{
+	width:150px;
+	/*float: left;*/
+	/*padding: 0;*/
+}
+.change-money li a{
+	padding: 0;
+}
+.change-money{
+	padding: 10px;
+	width: 98%;
+	background: #F7F7F7;
+	margin-top: 20px;
+}
+
+.right1 p{
+	font-size: 18px;
+	color: gainsboro;
+	margin-left: 35%;
+	margin-top: 25px;
+}

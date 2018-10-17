@@ -1,0 +1,19 @@
+.address{
+	padding: 1% 5%;
+}
+.address1 input{
+	height: 30px;
+}
+.address2 input{
+	height: 10px;
+}
+.address3 button{
+	width: 70px;
+	height: 30px;
+	background: lightgray;
+	color: black;
+}
+.address3 button:hover{
+	background: lightgray;
+	color: cadetblue;
+}

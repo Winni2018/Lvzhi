@@ -1,0 +1,29 @@
+$(function(){
+	$(".thpic3").mouseover(function(){
+		$(this).children().eq(3).show();
+	});
+	$(".thpic3").mouseout(function(){
+		$(this).children().eq(3).hide();
+	});
+	$(".thpic").mousemove(function(){
+		$(this).addClass("hover");
+		$(this).removeClass("hover1");
+		
+	});
+	$(".thpic").mouseleave(function(){
+		$(this).removeClass("hover");
+		$(this).addClass("hover1");
+
+	});
+	$(".thpic2").hover(function(){
+		$(this).children().eq(3).slideToggle();
+	});
+$(window).scroll(function(){
+		if($(window).scrollTop()>700){
+			$(".topreturn").fadeIn();
+		}
+		else{
+			$(".topreturn").fadeOut();
+		}
+	});
+})
